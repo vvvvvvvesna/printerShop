@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 1%;
+}
+
+.btn-info {
+    background-color: #009BA7 !important;
+    color: white !important;
+}
+
+.btn-info:hover {
+    background-color: #44C4CE !important;
+    color: white !important;
+}
+
+.left-angle-button,
+.right-angle-button {
+    width: 30px;
+    height: 30px;
+    background-color: white !important;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    color: #009BA7;
+}
+
+.left-angle-button:hover,
+.right-angle-button:hover {
+    color: #44C4CE;
+}
