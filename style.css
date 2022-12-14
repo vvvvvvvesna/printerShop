@@ -1,9 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     padding: 1%;
+    font-weight: 600;
 }
 
 .btn-info {
+    font-weight: 600;
     background-color: #009BA7 !important;
     color: white !important;
 }
@@ -27,4 +29,85 @@ body {
 .left-angle-button:hover,
 .right-angle-button:hover {
     color: #44C4CE;
+}
+
+.up-angle-button,
+.down-angle-button {
+    width: 30px;
+    height: 30px;
+    color: #CCCCCC;
+    background-color: #F1F1F1;
+}
+
+.up-angle-button:hover,
+.down-angle-button:hover {
+    background-color: #DAF3F5;
+    color: #AFD6D9;
+}
+
+.basket-button {
+    width: 50px;
+    height: 50px;
+    border: #44C4CE 1px solid;
+    background-color: #FFFFFF;
+    color: #44C4CE;
+}
+
+.basket-button:hover {
+    background-color: #009BA7;
+}
+
+.link-to-filter {
+    text-decoration: none;
+    color: black;
+}
+
+.link-to-filter:hover {
+    color: #44C4CE;
+}
+
+.link-to-filter i {
+    font-style: normal;
+}
+
+.link-to-filter label {
+    text-decoration: dotted;
+    padding-left: 5px;
+}
+
+.link-to-show-all {
+    text-decoration: none;
+    color: #009BA7;
+}
+
+.link-to-show-all:hover {
+    color: #44C4CE;
+}
+
+.link-to-show-all label {
+    padding-right: 5px;
+}
+
+.link-to-show-all i {
+    font-weight: 600;
+}
+
+.button-with-label {
+    text-align: center;
+}
+
+.form-check-input:hover {
+    border: 1px solid #009BA7;
+}
+
+.form-check-input:checked {
+    background-color: #009BA7;
+}
+
+.input-text-div {
+    font-weight: 400;
+}
+
+.input-text-div input:hover{
+    border-color: #009BA7;
 }
