@@ -1,0 +1,81 @@
+body {
+    margin: 0 10%;
+}
+
+.nav-pills .nav-item {
+    background-color: white;
+}
+
+.nav-pills a {
+    color: black !important;
+}
+
+.nav-item a.active {
+    color: #009BA7 !important;
+    background-color: white !important;
+    border: #009BA7 1px solid;
+}
+
+.row {
+    margin-top: 15px;
+}
+
+.catalog-list {
+    margin: 0 10%;
+}
+
+.catalog-list ul {
+    margin: 25px 0;
+}
+
+.catalog-card {
+    height: 300px;
+    width: 200px;
+    padding: 15px;
+}
+
+.catalog-card .catalog-card-rating i {
+    color: #009BA7;
+}
+
+.catalog-card h5 {
+    font-weight: 600;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.catalog-card-bottom button {
+    width: 40px;
+    height: 40px;
+}
+
+.catalog-card-bottom {
+    display: flex;
+}
+
+.pagination-block {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.pagination-bar a {
+    color: black;
+    
+    padding: 11px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: none;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+
+.pagination-bar a.active {
+    background-color: #44C4CE;
+    color: white;
+    border: none;
+    border-radius: 50%;
+}
+
+.pagination-bar a:hover:not(.active) {
+    background-color: #ddd;
+}
