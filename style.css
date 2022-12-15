@@ -108,6 +108,48 @@ body {
     font-weight: 400;
 }
 
-.input-text-div input:hover{
+.input-text-div input:hover {
     border-color: #009BA7;
+}
+
+.product-card {
+    background-color: #DFEEEF;
+    width: 180px;
+}
+
+.product-card:hover {
+    background-color: #DAF3F5;
+}
+
+.product-card p {
+    text-align: center;
+}
+
+.order-card {
+    width: 230px;
+    font-weight: 400;
+    border-width: 2px;
+}
+
+.order-card:hover {
+    border: #44C4CE 2px solid;
+}
+
+.order-card button {
+    color: transparent;
+    background-color: transparent;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.175);
+}
+
+.order-card button:active {
+    background-color: #009BA7;
+    color: white;
+    border: rgba(0, 0, 0, 0) 2px solid;
+}
+
+.order-card h5 {
+    color: #009BA7;
 }
