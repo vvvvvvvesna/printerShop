@@ -32,6 +32,9 @@ body {
     height: 300px;
     width: 200px;
     padding: 15px;
+    -webkit-box-shadow: 0px 0px 60px 1px rgba(183, 189, 193, 0.2);
+    -moz-box-shadow: 0px 0px 60px 1px rgba(183, 189, 193, 0.2);
+    box-shadow: 0px 0px 60px 1px rgba(183, 189, 193, 0.2);
 }
 
 .catalog-card .catalog-card-rating i {
