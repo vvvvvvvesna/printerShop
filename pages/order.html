@@ -19,13 +19,206 @@
 </head>
 
 <body>
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">Home</li>
-            <li class="breadcrumb-item active" aria-current="page">Категория</li>
-        </ol>
-    </nav>
-    <h1>Корзина</h1>
+    <div class="order-top">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                <li class="breadcrumb-item active" aria-current="page">Категория</li>
+            </ol>
+        </nav>
+        <h1>Корзина</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="table-container">
+                    <table class="table table-bordered">
+                        <thead class="border-top-0">
+                            <tr class="border-top-0">
+                                <th scope="col" class="border-end-0 border-start-0 border-top-0 text-muted">Фото</th>
+                                <th scope="col" class="border-end-0 border-start-0 border-top-0 text-muted">Наименование
+                                    товара</th>
+                                <th scope="col" class="border-end-0 border-start-0 border-top-0 text-muted">Цена</th>
+                                <th scope="col" class="border-end-0 border-start-0 border-top-0 text-muted">Количество
+                                </th>
+                                <th scope="col" class="border-end-0 border-start-0 border-top-0 text-muted">Сумма</th>
+                                <th scope="col" class="border-end-0 border-start-0 border-top-0 text-muted"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="col" class="border-start-0 border-end-0"><img
+                                        src="../assets/1560084555 1.png" alt=""></th>
+                                <th scope="col" class="border-start-0">
+                                    <p>Струйный картридж
+                                        Сanon PG-40 <br>
+                                        <small class="text-muted fw-light">Код товара: YF-12820-ER</small>
+                                    </p>
+                                </th>
+                                <th scope="col">
+                                    <h5 class="fw-bold">72,00 BYN</h5>
+                                    <p class="fw-light sale-block text-muted"><del>87,00 BYN</del><small>-25%</small>
+                                    </p>
+                                </th>
+                                <th scope="col" class="product-counter">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend border-end-0">
+                                            <div class="input-group-text border-end-0" id="btnGroupAddon">-</div>
+                                        </div>
+                                        <input type="text" class="form-control border-start-0 border-end-0"
+                                            placeholder="1" aria-label="" aria-describedby="btnGroupAddon">
+                                        <div class="input-group-append border-start-0">
+                                            <div class="input-group-text border-start-0" id="btnGroupAddon">+</div>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th scope="col">72,00 BYN</th>
+                                <th scope="col" class="border-end-0"><i class="fa fa-solid fa-trash"></i></th>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="border-start-0 border-end-0"><img
+                                        src="../assets/1560084555 1.png" alt=""></th>
+                                <th scope="col" class="border-start-0">
+                                    <p>Струйный картридж
+                                        Сanon PG-40 <br>
+                                        <small class="text-muted fw-light">Код товара: YF-12820-ER</small>
+                                    </p>
+                                </th>
+                                <th scope="col">
+                                    <h5 class="fw-bold">72,00 BYN</h5>
+                                    <p class="fw-light sale-block text-muted"><del>87,00 BYN</del><small>-25%</small>
+                                    </p>
+                                </th>
+                                <th scope="col" class="product-counter">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend border-end-0">
+                                            <div class="input-group-text border-end-0" id="btnGroupAddon">-</div>
+                                        </div>
+                                        <input type="text" class="form-control border-start-0 border-end-0"
+                                            placeholder="1" aria-label="" aria-describedby="btnGroupAddon">
+                                        <div class="input-group-append border-start-0">
+                                            <div class="input-group-text border-start-0" id="btnGroupAddon">+</div>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th scope="col">72,00 BYN</th>
+                                <th scope="col" class="border-end-0"><i class="fa fa-solid fa-trash"></i></th>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="border-start-0 border-end-0"><img
+                                        src="../assets/1560084555 1.png" alt=""></th>
+                                <th scope="col" class="border-start-0">
+                                    <p>Струйный картридж
+                                        Сanon PG-40 <br>
+                                        <small class="text-muted fw-light">Код товара: YF-12820-ER</small>
+                                    </p>
+                                </th>
+                                <th scope="col">
+                                    <h5 class="fw-bold">72,00 BYN</h5>
+                                    <p class="fw-light sale-block text-muted"><del>87,00 BYN</del><small>-25%</small>
+                                    </p>
+                                </th>
+                                <th scope="col" class="product-counter">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend border-end-0">
+                                            <div class="input-group-text border-end-0" id="btnGroupAddon">-</div>
+                                        </div>
+                                        <input type="text" class="form-control border-start-0 border-end-0"
+                                            placeholder="1" aria-label="" aria-describedby="btnGroupAddon">
+                                        <div class="input-group-append border-start-0">
+                                            <div class="input-group-text border-start-0" id="btnGroupAddon">+</div>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th scope="col">72,00 BYN</th>
+                                <th scope="col" class="border-end-0"><i class="fa fa-solid fa-trash"></i></th>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="border-start-0 border-end-0"><img
+                                        src="../assets/1560084555 1.png" alt=""></th>
+                                <th scope="col" class="border-start-0">
+                                    <p>Струйный картридж
+                                        Сanon PG-40 <br>
+                                        <small class="text-muted fw-light">Код товара: YF-12820-ER</small>
+                                    </p>
+                                </th>
+                                <th scope="col">
+                                    <h5 class="fw-bold">72,00 BYN</h5>
+                                    <p class="fw-light sale-block text-muted"><del>87,00 BYN</del><small>-25%</small>
+                                    </p>
+                                </th>
+                                <th scope="col" class="product-counter">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend border-end-0">
+                                            <div class="input-group-text border-end-0" id="btnGroupAddon">-</div>
+                                        </div>
+                                        <input type="text" class="form-control border-start-0 border-end-0"
+                                            placeholder="1" aria-label="" aria-describedby="btnGroupAddon">
+                                        <div class="input-group-append border-start-0">
+                                            <div class="input-group-text border-start-0" id="btnGroupAddon">+</div>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th scope="col">72,00 BYN</th>
+                                <th scope="col" class="border-end-0"><i class="fa fa-solid fa-trash"></i></th>
+                            </tr>
+                            <tr class="border-bottom-0">
+                                <th scope="col" class="border-start-0 border-end-0 border-bottom-0"><img
+                                        src="../assets/1560084555 1.png" alt=""></th>
+                                <th scope="col" class="border-start-0 border-bottom-0">
+                                    <p>Струйный картридж
+                                        Сanon PG-40 <br>
+                                        <small class="text-muted fw-light">Код товара: YF-12820-ER</small>
+                                    </p>
+                                </th>
+                                <th scope="col" class="border-bottom-0">
+                                    <h5 class="fw-bold">72,00 BYN</h5>
+                                    <p class="fw-light sale-block text-muted"><del>87,00 BYN</del><small>-25%</small>
+                                    </p>
+                                </th>
+                                <th scope="col" class="product-counter border-bottom-0">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend border-end-0">
+                                            <div class="input-group-text border-end-0" id="btnGroupAddon">-</div>
+                                        </div>
+                                        <input type="text" class="form-control border-start-0 border-end-0"
+                                            placeholder="1" aria-label="" aria-describedby="btnGroupAddon">
+                                        <div class="input-group-append border-start-0">
+                                            <div class="input-group-text border-start-0" id="btnGroupAddon">+</div>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th scope="col" class="border-bottom-0">72,00 BYN</th>
+                                <th scope="col" class="border-end-0 border-bottom-0"><i
+                                        class="fa fa-solid fa-trash"></i></th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col order-final">
+                <div class="order-final-wrapper">
+                    <div class="row">
+                        <div class="col">
+                            <h5><b>Ваша корзина</b> </h5>
+                            <p>Сумма заказа<br>
+                                Скидка
+                            </p>
+                        </div>
+                        <div class="col">
+                            <h5> 5 товаров</h5>
+                            <p><b class="fw-bold">254,00 BYN</b><br><b class="fw-bold">-70,00 BYN</b></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <h4>
+                        Итого&nbsp;&nbsp;&nbsp;<b>184,00 BYN</b>
+                    </h4>
+                    <button class="btn btn-info">Перейти к оплате</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

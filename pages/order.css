@@ -1,0 +1,89 @@
+.order-top {
+    margin-left: 4%;
+}
+
+th img {
+    height: 50px;
+}
+
+thead th {
+    font-weight: 200 !important;
+}
+
+.sale-block del {
+    text-decoration-color: #D35555;
+}
+
+tr {
+    vertical-align: middle;
+}
+
+.sale-block small {
+    background-color: #006A81;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.7rem;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.table-container {
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 60px 1px rgba(183, 189, 193, 0.2);
+    -moz-box-shadow: 0px 0px 60px 1px rgba(183, 189, 193, 0.2);
+    box-shadow: 0px 0px 60px 1px rgba(183, 189, 193, 0.2);
+}
+
+tbody th {
+    padding: 10px 5px !important;
+}
+
+th i {
+    color: #CCCCCC;
+    margin-right: 25px;
+    font-size: 1.5rem !important;
+}
+
+th i:hover {
+    color: #009BA7;
+    cursor: pointer;
+
+}
+
+.product-counter input,
+.product-counter div {
+    background-color: #F1F1F1;
+}
+
+.product-counter div {
+    cursor: pointer;
+}
+
+.product-counter .input-group {
+    width: 110px;
+}
+
+.product-counter input {
+    padding: 0;
+    text-align: center;
+}
+
+.order-final {
+    font-weight: 200;
+}
+
+.order-final b {
+    text-align: end;
+}
+
+.order-final-wrapper {
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 60px 1px rgba(183, 189, 193, 0.2);
+    -moz-box-shadow: 0px 0px 60px 1px rgba(183, 189, 193, 0.2);
+    box-shadow: 0px 0px 60px 1px rgba(183, 189, 193, 0.2);
+}
+
+.order-final-wrapper button {
+    width: 100%;
+}
