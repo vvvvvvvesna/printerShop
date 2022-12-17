@@ -4,6 +4,11 @@ body {
     font-weight: 600;
 }
 
+.page-top {
+    padding: 20px 20%;
+    margin: 20px;
+}
+
 .btn-info {
     font-weight: 600;
     background-color: #009BA7 !important;
