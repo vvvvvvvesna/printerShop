@@ -112,23 +112,28 @@ h1 {
     text-align: center;
 }
 
+.pagination-bar p {
+    display: inline;
+}
+
 .pagination-bar a {
     color: black;
     padding: 11px 16px;
     text-decoration: none;
-    transition: background-color .3s;
     border: none;
     margin: 0 4px;
     border-radius: 50%;
 }
 
+.pagination-bar a.colored {
+    color: #009BA7;
+    font-weight: 600;
+    /* font-size: 23px; */
+}
+
 .pagination-bar a.active {
-    background-color: #44C4CE;
+    background-color: #009ba7;
     color: white;
     border: none;
     border-radius: 50%;
-}
-
-.pagination-bar a:hover:not(.active) {
-    background-color: #ddd;
 }
