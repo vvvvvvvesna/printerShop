@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="page-top">
+    <div class="page-top catalog-top">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page">Home</li>
@@ -26,59 +26,55 @@
         </nav>
         <div class="container">
             <div class="row">
-                <h1>Фотобумага</h1>
+                <h1 class="fw-bold">Фотобумага</h1>
             </div>
-            <div class="row">
-                <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Пленки</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">А4 Сатиновая фотобумага</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">А4 глянцевая фотобумага</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">А4 глянцевая фотобумага</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">А4 глянцевая фотобумага</a>
-                    </li>
-                </ul>
+            <div class="row navigation-buttons">
+                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+                <label class="btn fw-semibold col" for="option1">Пленки</label>
+                <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" checked>
+                <label class="btn fw-semibold col" for="option2">A4 сатиновая фотобумага</label>
+                <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" checked>
+                <label class="btn fw-semibold col" for="option3">A4 глянцевая фотобумага</label>
+                <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off" checked>
+                <label class="btn fw-semibold col" for="option4">A4 глянцевая фотобумага</label>
+                <input type="radio" class="btn-check" name="options" id="option5" autocomplete="off" checked>
+                <label class="btn fw-semibold col" for="option5">A4 глянцевая фотобумага</label>
+                <input type="radio" class="btn-check" name="options" id="option6" autocomplete="off" checked>
+                <label class="btn fw-semibold col" for="option6">A4 глянцевая фотобумага</label>
             </div>
         </div>
-        <ul>
-            <button type="button" class="btn btn-secondary">lorem</button>
-            <button type="button" class="btn btn-secondary">ipsum</button>
-            <button type="button" class="btn btn-secondary">filter</button>
-            <button type="button" class="btn btn-secondary">x</button>
-        </ul>
     </div>
     <div class="catalog-list">
-
+        <ul class="filter-group ">
+            <button type="button" class="btn fw-semibold">lorem</button>
+            <button type="button" class="btn fw-semibold">ipsum</button>
+            <button type="button" class="btn fw-semibold">filter</button>
+            <button type="button" class="btn fw-semibold">x</button>
+        </ul>
         <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="card catalog-card">
                         <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
                         <div class="catalog-card-rating">
+                            <i class="fa fa-solid fa-star fill"></i>
+                            <i class="fa fa-solid fa-star fill"></i>
+                            <i class="fa fa-solid fa-star fill"></i>
                             <i class="fa fa-solid fa-star"></i>
                             <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
+                            <small class="fw-bold">4.1</small>
                         </div>
                         <p>
-                            <small>Картриджи Hewlett-Packard</small>
+                            <small class="fw-bolder">Картриджи Hewlett-Packard</small>
                         </p>
                         <hr style="width:100%;text-align:left;margin-left:0">
                         <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
+                            <div>
+                                <h5 class="fw-bold">72,00 BYN</h5>
+                            </div>
+                            <div>
+                                <img class="rounded-circle basket-button" src="../assets/shopping-basket-2-line.png">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -86,22 +82,26 @@
                     <div class="card catalog-card">
                         <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
                         <div class="catalog-card-rating">
+                            <i class="fa fa-solid fa-star fill"></i>
+                            <i class="fa fa-solid fa-star fill"></i>
+                            <i class="fa fa-solid fa-star fill"></i>
                             <i class="fa fa-solid fa-star"></i>
                             <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
+                            <small class="fw-bold">4.1</small>
                         </div>
                         <p>
-                            <small>Картриджи Hewlett-Packard</small>
+                            <small class="fw-bolder">Картриджи Hewlett-Packard</small>
                         </p>
                         <hr style="width:100%;text-align:left;margin-left:0">
                         <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
+                            <div>
+                                <p class="fw-light sale-block text-muted"><del>87,00 BYN</del><small>-25%</small>
+                                </p>
+                                <h5 class="fw-bold">72,00 BYN</h5>
+                            </div>
+                            <div>
+                                <img class="rounded-circle basket-button" src="../assets/shopping-basket-2-line.png">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -109,22 +109,27 @@
                     <div class="card catalog-card">
                         <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
                         <div class="catalog-card-rating">
+                            <i class="fa fa-solid fa-star fill"></i>
+                            <i class="fa fa-solid fa-star fill"></i>
+                            <i class="fa fa-solid fa-star fill"></i>
                             <i class="fa fa-solid fa-star"></i>
                             <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
+                            <small class="fw-bold">4.1</small>
                         </div>
                         <p>
-                            <small>Картриджи Hewlett-Packard</small>
+                            <small class="fw-bolder">Картриджи Hewlett-Packard</small>
                         </p>
                         <hr style="width:100%;text-align:left;margin-left:0">
                         <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
+                            <div class="catalog-card-bottom">
+                                <div>
+                                    <h5 class="fw-bold">72,00 BYN</h5>
+                                </div>
+                                <div>
+                                    <img class="rounded-circle basket-button"
+                                        src="../assets/shopping-basket-2-line.png">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -132,398 +137,27 @@
                     <div class="card catalog-card">
                         <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
                         <div class="catalog-card-rating">
+                            <i class="fa fa-solid fa-star fill"></i>
+                            <i class="fa fa-solid fa-star fill"></i>
+                            <i class="fa fa-solid fa-star fill"></i>
                             <i class="fa fa-solid fa-star"></i>
                             <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
+                            <small class="fw-bold">4.1</small>
                         </div>
                         <p>
-                            <small>Картриджи Hewlett-Packard</small>
+                            <small class="fw-bolder">Картриджи Hewlett-Packard</small>
                         </p>
                         <hr style="width:100%;text-align:left;margin-left:0">
                         <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-card">
-                        <img class="card-img-top" src="../assets/343 2.png" alt="Card image cap">
-                        <div class="catalog-card-rating">
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-solid fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <small>4.1</small>
-                        </div>
-                        <p>
-                            <small>Картриджи Hewlett-Packard</small>
-                        </p>
-                        <hr style="width:100%;text-align:left;margin-left:0">
-                        <div class="catalog-card-bottom">
-                            <h5>72,00 BYN</h5>
-                            <button class="rounded-circle basket-button">
-                                <i class="fa fa-regular fa-basket-shopping"></i>
-                            </button>
+                            <div class="catalog-card-bottom">
+                                <div>
+                                    <h5 class="fw-bold">72,00 BYN</h5>
+                                </div>
+                                <div>
+                                    <img class="rounded-circle basket-button"
+                                        src="../assets/shopping-basket-2-line.png">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

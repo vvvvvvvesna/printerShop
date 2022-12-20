@@ -1,7 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     padding: 1%;
-    font-weight: 600;
+}
+
+.breadcrumb li {
+    color: #CCCCCC !important;
 }
 
 .page-top {
@@ -10,7 +13,6 @@ body {
 }
 
 .btn-info {
-    font-weight: 600;
     background-color: #009BA7 !important;
     color: white !important;
 }
@@ -51,15 +53,13 @@ body {
 }
 
 .basket-button {
-    width: 50px;
-    height: 50px;
     border: #44C4CE 1px solid;
     background-color: #FFFFFF;
     color: #44C4CE;
 }
 
 .basket-button:hover {
-    background-color: #009BA7;
+    background-color: #44C4CE;
 }
 
 .link-to-filter {
@@ -157,4 +157,17 @@ body {
 
 .order-card h5 {
     color: #009BA7;
+}
+
+.sale-block del {
+    text-decoration-color: #D35555;
+}
+
+.sale-block small {
+    background-color: #006A81;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.7rem;
+    text-decoration: none;
+    margin-left: 5px;
 }
