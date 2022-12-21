@@ -46,6 +46,10 @@ body {
     margin-left: 30px;
 }
 
+.radio-options input {
+    width: 50%;
+}
+
 .product-page-price-1col h4 {
     font-weight: 600;
     font-size: 1rem;

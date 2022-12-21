@@ -10,14 +10,15 @@ thead th {
     font-weight: 200 !important;
 }
 
-.sale-block del {
-    text-decoration-color: #D35555;
-}
 
 tr {
     vertical-align: middle;
 }
 
+
+.sale-block del {
+    text-decoration-color: #D35555;
+}
 .sale-block small {
     background-color: #006A81;
     border-radius: 5px;
@@ -73,9 +74,6 @@ th i:hover {
     font-weight: 200;
 }
 
-.order-final b {
-    text-align: end;
-}
 
 .order-final-wrapper {
     padding: 10px;
@@ -86,4 +84,5 @@ th i:hover {
 
 .order-final-wrapper button {
     width: 100%;
+    height: 50px;
 }
