@@ -16,6 +16,10 @@ h1 {
     margin: 0;
 }
 
+.navigation-buttons {
+    position: relative;
+}
+
 .navigation-buttons .btn {
     margin-right: 5px;
     background-color: white;
