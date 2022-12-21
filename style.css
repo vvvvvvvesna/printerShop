@@ -147,6 +147,7 @@ body {
     border-width: 2px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.175);
+    margin-bottom: 10px;
 }
 
 .order-card button:active {
@@ -155,7 +156,8 @@ body {
     border: rgba(0, 0, 0, 0) 2px solid;
 }
 
-.order-card h5 {
+.order-card h5,
+.colored {
     color: #009BA7;
 }
 

@@ -1,11 +1,21 @@
+.form-label p {
+    display: inline;
+    color: red;
+}
+
 .order-card {
     width: auto;
-    background-color: #F1F1F1;
+    background-color: #fcfcfc;
+    border: #F1F1F1 1px solid;
 }
 
 .card-col {
     padding: 20px;
     margin: 20px;
+}
+
+.card-result {
+    padding: 0 0 0 20px;
 }
 
 .card-wrapper,
@@ -25,6 +35,10 @@
 
 .product-page-price-1col {
     display: flex;
+}
+
+.with-margin {
+    margin-left: 30px;
 }
 
 .product-page-price-1col h4 {
@@ -59,8 +73,15 @@ h4 {
 
 h4>div {
     border-radius: 50%;
-    border: #006A81 2px solid;
-    width: 2rem;
+    border: #006A81 3px solid;
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+    font-size: 16px;
     text-align: center;
     margin-inline-end: 10px;
+}
+
+.radio-options label {
+    margin: 0 15px;
 }
