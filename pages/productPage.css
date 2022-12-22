@@ -1,5 +1,5 @@
 .image-section {
-    margin-top: 2rem;
+    margin-top: 100px;
 }
 
 .image-section .main-image {
@@ -25,7 +25,6 @@
 }
 
 .image-section img.list-item-image:not(.active) {
-
     opacity: 0.5;
 }
 
@@ -51,13 +50,12 @@ p.muted-text {
 }
 
 .product-page-price h4 {
-    font-weight: 600;
-    font-size: 2rem;
+    font-size: 32px;
     margin-bottom: 0px;
 }
 
 .product-page-price p {
-    font-size: 0.8rem;
+    font-size: 14px;
     margin-bottom: 0px;
 }
 
@@ -78,22 +76,13 @@ p.muted-text {
 }
 
 .product-page-price button {
-    font-weight: 400;
     width: 100%;
     height: 45px;
-    font-size: 0.7rem;
+    font-size: 14px;
 }
 
 .product-info-section {
     padding-top: 15px;
-}
-
-.product-info-section p {
-    font-weight: 200;
-}
-
-.product-info-section p b {
-    font-weight: 600;
 }
 
 .product-info-section i {
@@ -121,12 +110,7 @@ p.muted-text {
 }
 
 .product-page-section-row.description p {
-    font-weight: 200;
     padding: 10px;
-}
-
-.product-page-section-row.description p b {
-    font-weight: 600;
 }
 
 p.with-fill {
