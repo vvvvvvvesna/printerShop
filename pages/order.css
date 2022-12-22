@@ -21,9 +21,9 @@ tr {
 }
 .sale-block small {
     background-color: #006A81;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
-    font-size: 0.7rem;
+    font-size: 14px;
     text-decoration: none;
     margin-left: 5px;
 }
@@ -43,7 +43,7 @@ tbody th {
 th i {
     color: #CCCCCC;
     margin-right: 25px;
-    font-size: 1.5rem !important;
+    font-size: 40px;
 }
 
 th i:hover {
@@ -68,10 +68,6 @@ th i:hover {
 .product-counter input {
     padding: 0;
     text-align: center;
-}
-
-.order-final {
-    font-weight: 200;
 }
 
 
