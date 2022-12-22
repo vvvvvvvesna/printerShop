@@ -52,12 +52,12 @@ body {
 
 .product-page-price-1col h4 {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 16px;
     margin-bottom: 0px;
 }
 
 .product-page-price-1col p {
-    font-size: 0.8rem;
+    font-size: 12px;
     margin-bottom: 0px;
 }
 
