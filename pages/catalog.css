@@ -132,7 +132,6 @@ h1 {
 .pagination-bar a.colored {
     color: #009BA7;
     font-weight: 600;
-    /* font-size: 23px; */
 }
 
 .pagination-bar a.active {
