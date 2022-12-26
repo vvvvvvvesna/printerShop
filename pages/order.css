@@ -19,6 +19,7 @@ tr {
 .sale-block del {
     text-decoration-color: #D35555;
 }
+
 .sale-block small {
     background-color: #006A81;
     border-radius: 10px;
@@ -38,6 +39,7 @@ tr {
 
 tbody th {
     padding: 10px 5px !important;
+    border-color: #cccccc;
 }
 
 th i {
@@ -54,8 +56,9 @@ th i:hover {
 
 .product-counter input,
 .product-counter div {
-    background-color: #F1F1F1;
+    background-color: #FcFcFc;
 }
+
 
 .product-counter div {
     cursor: pointer;
@@ -63,6 +66,17 @@ th i:hover {
 
 .product-counter .input-group {
     width: 110px;
+    margin-left: 15px;
+}
+
+.product-counter .input-group-text {
+    font-size: 25px;
+    color: #cccccc;
+    padding: 0.175rem 0.75rem;
+}
+
+.product-counter .input-group-text:hover {
+    color: #44c4ce;
 }
 
 .product-counter input {
@@ -81,4 +95,13 @@ th i:hover {
 .order-final-wrapper button {
     width: 100%;
     height: 50px;
+}
+
+th .delete-button-img {
+    height: 25px;
+    cursor: pointer;
+}
+
+.delete-button-img:hover {
+    filter: brightness(0) saturate(100%) invert(68%) sepia(20%) saturate(1221%) hue-rotate(136deg) brightness(97%) contrast(86%);
 }

@@ -53,9 +53,8 @@ body {
 }
 
 .basket-button {
-    border: #44C4CE 1px solid;
+    border: #d7f1f3 2px solid;
     background-color: #FFFFFF;
-    color: #44C4CE;
 }
 
 .basket-button:hover {
@@ -137,7 +136,7 @@ body {
 }
 
 .order-card:hover {
-    border: #44C4CE 2px solid;
+    border: #44C4CE 1px solid;
 }
 
 .order-card button {
@@ -148,12 +147,6 @@ body {
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.175);
     margin-bottom: 10px;
-}
-
-.order-card button:active {
-    background-color: #009BA7;
-    color: white;
-    border: rgba(0, 0, 0, 0) 2px solid;
 }
 
 .order-card h5,
